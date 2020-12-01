@@ -1,42 +1,17 @@
-# React Coding Challenges 👋
+# Dark Mode Pairing/Small Coding Challenge 🌙
 
-A series of easy through hard, **React.js coding challenges**. Deep dive into the why [here](https://dev.to/alexgurr/react-coding-challenges-for-interviews-beginners-1hlk).
+### Difficulty: Medium | Time required: ~ 30 minutes
 
-&nbsp;
-# Current Challenges
-## Easy 😃
-#### 🚀 [Rocket Ship](https://github.com/alexgurr/react-coding-challenges/tree/master/rocket-ship)
-Unecessary re-renders, fine grained control 
+# Requirements
+- Add dark-mode switching functionality to the *existing* dark-mode button
+  - Utilise the *existing* dark-mode scss file by adding a `dark-mode` class to the base `html` element
+- When in Dark mode:
+  - The button icon should be `faSun`
+  - The button icon color should be `(#FFA500)`. You can use the `color` prop on the `Icon` component.
 
-&nbsp;
-## Medium 😬
-#### 🌑 [Dark Mode](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode)
-State/Shared State, DOM manipulation
+# Think about
+- How we would use Dark mode on other potential routes/components in a bigger application. Would your solution work for this?
+- How we can apply a class to the `html` DOM element
 
-&nbsp;
-## Hard 🤨
-#### 🎧 [Spootify](https://github.com/alexgurr/react-coding-challenges/tree/master/spootify)
-Loading state, API usage 
-
-#### 🤖 Botty ![soon](https://badgen.net/badge/status/coming%20soon/green?icon=)
-Web sockets, events & callbacks, hooks
-
-&nbsp;
-# When could these be useful?
-- Usage as short coding exercises, such as for interviews
-- To test yourself/test your coding abilities under pressure
-- For beginners looking for a fun way to learn React 
-
-&nbsp;
-# How do they work?
-The scaffolding is done for you. Simply run `yarn` in any of the directories to start the application. Each application has a README with its requirements.
-
-Some might require connection to external APIs, but all information will be provided in the inididual challenge readmes.
-
-&nbsp;
-# Have you got the solutions?
-I have completed all the coding challenges to a high standard. If you're interested in being invited to the solutions GitHub repository, get in touch.
-
-&nbsp;
-# Thoughts or feedback
-Conflicting opinion about a challenge difficulty rating? Need some help or guidance? Got a challenge idea? Get in touch via www.alexgurr.com.
+![screenshot-light](https://puu.sh/Fq13d/04a9e5ad48.png)
+![screenshot-dark](https://puu.sh/Fq132/caa2fa0c6d.png)
